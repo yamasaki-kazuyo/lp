@@ -1,0 +1,822 @@
+.qbb-mainimg {
+	height: 590px;
+	width: 100%;
+	background: url(/images/lp/izakaya/mainimg_PC.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.qbb-mainimg h1 {
+	width: 770px;
+    height: auto;
+    margin: 0 auto;
+    padding: 90px 0 0;
+}
+#qbb-izakayababy .qbb-sec1 .container {
+	max-width: 1140px;
+}
+.qbb-mainimg .date {
+	position: absolute;
+	width: 100%;
+	max-width: 550px;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	bottom: -40px;
+	padding: 0 40px;
+	-webkit-filter: drop-shadow(0px 2px 6px rgba(0,0,0,.7));
+    filter: drop-shadow(0px 0px 6px rgba(0,0,0,.7));
+}
+
+.qbb-sec1 {
+	background: url(/images/lp/izakaya/bg1.jpg) center repeat-y;
+	background-size: contain;
+}
+#qbb-izakayababy .qbb-sec1 {
+	margin: 0;
+	text-align: center;
+	padding: 0 0 80px;
+}
+.qbb-sec1 .common-block {
+	margin: 90px auto 0;
+}
+.qbb-sec1 .common-block div img {
+	width: 100%;
+}
+.qbb-sec1 .common-block a img {
+	width: 310px;
+	height: auto;
+	margin: auto;
+}
+.qbb-sec1 .common-block a img:hover {
+	opacity: .8;
+	transition: .8s;
+}
+.qbb-sec1 .common-block .copy {
+	font-weight: bold;
+}
+
+.qbb-sec2 .title {
+	position: relative;
+}
+.qbb-sec2 .title h2 {
+	margin: 0;
+	position: relative;
+    z-index: 1;
+}
+.qbb-sec2 .title h2 img {
+	width: 100%;
+	max-width: 640px;
+}
+.qbb-sec2 .title .title2 {
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+	width: 100%;
+	max-width: 460px;
+}
+.qbb-sec2 .recipe-copy {
+	background: #00326c;
+}
+.qbb-sec2 .recipe-copy p {
+	color: #fff;
+	font-size: 24px;
+	padding: 13px 0;
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+}
+.qbb-sec2 .recipe {
+	background: #fcf8e6;
+	padding: 0 0 70px;
+    margin-bottom: -55px;
+}
+.qbb-sec2 .recipe .common-block {
+	background: #fff;
+	position: relative;
+	margin: 80px 0 0;
+}
+.qbb-sec2 .recipe .common-block .block-title h3 {
+	font-size: 42px;
+	color: #00326c;
+	text-align: right;
+    border-bottom: 10px solid #00326c;
+	padding: 60px 160px 30px 0;
+	position: relative;
+	margin: 0 0 50px;
+}
+.qbb-sec2 .recipe .common-block.chinese .block-title h3 {
+	padding: 30px 180px 20px 0;
+}
+.qbb-sec2 .recipe .common-block.french .block-title h3:after {
+	position: absolute;
+	content: "";
+	display: block;
+	background-image: url(/images/lp/izakaya/cheese1.png);
+	width: 131px;
+	height: 169px;
+	background-size: contain;
+	right: 20px;
+    top: 10px;
+}
+.qbb-sec2 .recipe .common-block.chinese .block-title h3:after {
+	position: absolute;
+	content: "";
+	display: block;
+	background-image: url(/images/lp/izakaya/cheese2.png);
+	width: 131px;
+	height: 169px;
+	background-size: contain;
+	right: 20px;
+    top: 10px;
+}
+.qbb-sec2 .recipe .common-block.italian .block-title h3:after {
+	position: absolute;
+	content: "";
+	display: block;
+	background-image: url(/images/lp/izakaya/cheese3.png);
+	width: 131px;
+	height: 169px;
+	background-size: contain;
+	right: 20px;
+    top: 10px;
+}
+.qbb-sec2 .recipe .common-block .block-title h3 span {
+	font-size: 24px;
+}
+.qbb-sec2 .recipe .common-block .recipe-title {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	max-width: 460px;
+    left: -80px;
+    top: -60px;
+}
+.qbb-sec2 .recipe .common-block .block-chef {
+	padding: 40px 60px;
+	overflow: hidden;
+}
+.qbb-sec2 .recipe .common-block .block-chef p {
+	max-width: 720px;
+	width: 100%;
+	line-height: 1.5;
+	font-size: 14px;
+    background-size:100% 2em;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.qbb-sec2 .recipe .common-block .block-chef .comment {
+	background-image:linear-gradient(180deg,rgba(204,204,204,0) 0%,rgba(204,204,204,0) 98.5%,rgba(100,100,100,100) 100%);
+	background-repeat:repeat-y;
+	background-size: 100% 2em;
+	line-height: 2em;
+	padding: 0 .5em .2em;
+	font-size: 18px;
+	margin: 0 20px 20px 0;
+	float: left;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.qbb-sec2 .recipe .common-block .block-chef .movie-btn:hover {
+	opacity: .8;
+	transition: .8s;
+}
+.qbb-sec2 .recipe .common-block .block-chef .movie-btn {
+	width: 310px;
+}
+.qbb-sec2 .recipe .common-block .block-chef .text1 {
+	margin: 0 10px 0 0;
+	color: #fff;
+	background:#00326c;
+	padding: 5px 10px;
+	display: inline-block;
+	width: auto;
+	font-size: 12px;
+	float: left;
+}
+.qbb-sec2 .recipe .common-block .block-chef .text2 {
+	font-weight: bold;
+	margin: 0 0 10px;
+	width: auto;
+}
+.qbb-sec2 .recipe .common-block .block-chef .text2 span {
+	font-size: 20px;
+}
+.qbb-sec2 .recipe .common-block .block-chef .text3 {
+	display: flex;
+	color: #00326c;
+	margin: 15px 0 5px;
+}
+.qbb-sec2 .recipe .common-block .block-chef .text3:after {
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    background-color: #00326c;
+	margin: 10px 0 10px 10px;
+}
+.qbb-sec2 .recipe .common-block .block-chef .box {
+}
+
+.qbb-sec2 .recipe .common-block .block-chef img {
+	width: 100%;
+	max-width: 340px;
+	float: right;
+	margin: -30px 0 0;
+}
+.qbb-sec2 .recipe .common-block .block-recipe {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1080px;
+    margin: 0 auto 60px;
+}
+.qbb-sec2 .recipe .common-block .block-recipe .box {
+	width: 100%;
+	max-width: 510px;
+}
+
+.qbb-sec2 .recipe .common-block .block-recipe .box .img-outer {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	overflow: hidden;
+}
+.qbb-sec2 .recipe .img-text {
+	position: relative;
+}
+.qbb-sec2 .recipe .img-text:after {
+	position: absolute;
+	right: 5px;
+	bottom: 0;
+	content: "※写真は一人前です";
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	text-shadow    : 
+       1px  1px 1px #000,
+      -1px  1px 1px #000,
+       1px -1px 1px #000,
+      -1px -1px 1px #000,
+       1px  0px 1px #000,
+       0px  1px 1px #000,
+      -1px  0px 1px #000,
+       0px -1px 1px #000;
+}
+.qbb-sec2 .recipe .common-block .block-recipe .box .img-outer img {
+	 transition:1s all;
+}
+.qbb-sec2 .recipe .common-block .block-recipe .box .img-outer img:hover {
+  transform:scale(1.05,1.05);
+  transition:1s all;
+}
+.qbb-sec2 .recipe .common-block .block-recipe .box .text1 {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin: 18px 0;
+	line-height: 1.2em;
+}
+.qbb-sec2 .recipe .common-block .block-recipe .box .text2 {
+	background: #fbf1e7;
+	display: inline-block;
+	padding: 20px 20px 20px 90px;
+	min-height: 196px;
+	font-size: 15px;
+	position: relative;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	color: #333 !important;
+}
+.qbb-sec2 .recipe .common-block .block-recipe .box .text2:after {
+	position: absolute;
+	content: "";
+	display: block;
+	background-image: url(/images/lp/izakaya/point.png);
+	width: 90px;
+	height: 90px;
+	background-size: contain;
+	left: -20px;
+    top: -10px;
+}
+.qbb-sec2 .recipe .common-block .block-recipe .box .btn {
+	background: #00326c;
+	margin: 15px auto 0;
+	width: 300px;
+	height: 60px;
+	border-radius: 30px;
+	display: block;
+	padding: 0;
+}
+.qbb-sec2 .recipe .common-block .block-recipe .box .btn a {
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: inline-block;
+}
+.qbb-sec2 .recipe .common-block .block-recipe .box .btn:hover {
+	opacity: .8;
+	transition: .8s;
+}
+.qbb-sec2 .recipe .common-block .block-recipe .box .btn a:after {
+	background: url(/images/lp/izakaya/arrow.png) no-repeat center right;
+    background-size: 17px 17px;
+    content: "";
+    display: block;
+    height: 17px;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    width: 17px;
+}
+
+
+
+
+
+
+.ccm-page .qbb-bc-moie-modal2 .close {
+	background: url(/images/lp/izakaya/icon-close.svg) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 28px;
+    opacity: 1;
+    outline: none !important;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: -44px;
+    width: 28px;
+}
+#qbb-izakayababy .modal-body {
+	padding: 60px 80px;
+}
+.qbb-sec2 .recipe .common-block .block-recipe .qbb-bc-moie-modal2 .box {
+	width: 280px;
+	float: right;
+}
+.qbb-sec2 .recipe .common-block .block-recipe .qbb-bc-moie-modal2 .box p {
+	font-size: 14px;
+	margin: 0 0 20px;
+    padding: 0 0 0 30px;
+    text-indent: -26px;
+	line-height: 1.4em;
+}
+.qbb-sec2 .recipe .common-block .block-recipe .qbb-bc-moie-modal2 .box p:first-child {
+	border-bottom: 1px dashed #555;
+	padding-bottom: 5px;
+	margin: 0;
+}
+.qbb-bc-moie-modal2 .title {
+	font-size: 32px;
+	float: left;
+	font-weight: 500;
+	line-height: 1.5;
+}
+.qbb-bc-moie-modal2 .icon {
+	background: no-repeat center center;
+    background-size: 22px 22px;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+}
+.qbb-bc-moie-modal2 .icon.timer {
+    background-image: url(/images/common/icon-timer1.svg);
+    background-size: 20px 20px;
+}
+.qbb-bc-moie-modal2 .icon.point {
+    background-image: url(/images/lp/izakaya/icon-point.svg);
+    background-size: 18px 20px;
+}
+.qbb-bc-moie-modal2 .qbb-babycheese-lineup-modal-content1 .img-recipe {
+	width: 100%;
+	height: 620px;
+    object-fit: cover;
+}
+.qbb-bc-moie-modal2 .modal-block2 {
+	margin: 60px 0 0;
+}
+.qbb-bc-moie-modal2 .modal-block3 {
+	margin: 40px 0 0;
+	background: #f8f6f4;
+	border-radius: 10px;
+	position: relative;
+	padding: 40px 30px 30px 40px;
+}
+.qbb-bc-moie-modal2 .modal-block3 .img-comment {
+	width: 100%;
+	max-width: 392px;
+	position: absolute;
+	top: -20px;
+	left: 20px;
+}
+.qbb-bc-moie-modal2 .modal-block3 div {
+	overflow: hidden;
+}
+.qbb-bc-moie-modal2 .modal-block3 p {
+	width: 100%;
+	max-width: 620px;
+	margin: 0 30px 0 0;
+	float: left;
+	line-height: 1.6em;
+}
+.qbb-bc-moie-modal2 .modal-block3 .text1 {
+	min-height: 150px;
+}
+.qbb-bc-moie-modal2 .modal-block3 .text2 {
+	border-top: 1px solid #ed1c24;
+	color: #ed1c24;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: right;
+	margin: 25px 0 0;
+	padding: 10px 0 0;
+}
+.qbb-bc-moie-modal2 .modal-block3 .img-chef {
+	width: 100%;
+	max-width: 320px;
+	margin: 0 -10px 0 0;
+}
+
+
+
+
+#qbb-izakayababy .modal-body .iframe-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* アスペクト比16:9の場合 */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 2rem; /* YouTubeの下に余白をつける */
+}
+#qbb-izakayababy .modal-body .iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#qbb-izakayababy .modal-dialog {
+		width: 100%;
+		max-width: 1200px;
+		margin: 60px auto;	
+}
+
+
+
+
+@media (min-width: 768px){
+
+	.dsp-sp {
+		display: none;
+	}
+	
+}
+
+@media (max-width: 1210px) {
+	.qbb-sec2 .recipe .common-block .block-chef img {
+		float: none;
+		margin: 0 auto 10px;
+		max-width: 400px;
+		display: block;
+	}
+	.qbb-sec2 .recipe .common-block .block-chef p {
+		max-width: 100%;
+	}
+	#qbb-izakayababy .modal-dialog {
+			    max-width: 100%;
+    	padding: 20px;
+	}
+	#qbb-izakayababy .modal-body {
+		padding: 40px;
+	}
+	.qbb-bc-moie-modal2 .modal-block3 .img-chef {
+		max-width: 300px;
+		margin: 10px auto 0;
+    	display: block;
+	}
+
+}
+@media (max-width: 1139px) {
+	.qbb-sec2 .recipe .common-block .block-recipe {
+		max-width: 90%;
+	}
+	.qbb-sec2 .recipe .common-block .block-recipe .box {
+		width: 48%;
+	}
+	.qbb-sec2 .recipe .common-block .block-recipe .box .text1 {
+		font-size: 18px;
+	}
+	.qbb-sec2 .title h2 img {
+		max-width: 520px;
+	}
+	.qbb-sec2 .title .title2 {
+		max-width: 460px;
+	}
+	.qbb-sec2 .recipe .common-block .block-title h3 {
+		font-size: 32px;
+	}
+	.qbb-sec2 .recipe .common-block .block-title h3 span {
+		font-size: 18px;
+	}
+	.qbb-sec2 .recipe .common-block .recipe-title {
+		left: -30px;
+	}
+	.qbb-sec2 .recipe .common-block.chinese .block-title h3 {
+		padding: 30px 150px 20px 0;
+	}
+	.qbb-bc-moie-modal2 .qbb-babycheese-lineup-modal-content1 .img-recipe {
+		height: auto;
+	}
+	.qbb-bc-moie-modal2 .modal-block3 p {
+		max-width: 100%;
+	}
+	.qbb-bc-moie-modal2 .modal-block3 .text1 {
+		min-height: auto;
+	}
+	.qbb-bc-moie-modal2 .modal-block3 .text2 {
+		border-top: none;
+		text-align: center;
+		font-size: 16px;
+	}
+	.qbb-bc-moie-modal2 .modal-block3 .text2 span {
+		font-size: 14px;
+	}
+	.qbb-bc-moie-modal2 .modal-block3 .text2:before, .qbb-bc-moie-modal2 .modal-block3 .text2:after {
+		content: "";
+    	height: 1px;
+    	flex-grow: 1;
+    	background-color: #ed1c24;
+	}
+	.qbb-bc-moie-modal2 .modal-block3 .text2:before {
+		margin-right: 1em;
+	}
+	.qbb-bc-moie-modal2 .modal-block3 .text2:after {
+		margin-left: 1em;
+	}
+	.qbb-bc-moie-modal2 .modal-block3 .img-comment {
+		left: 50%;
+		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		margin: auto;
+	}
+}
+
+@media (max-width: 1059px) {
+	
+	.ccm-page .qbb-sec2 .container {
+		max-width: 940px;
+	}
+	
+	
+}
+
+
+
+
+
+@media (max-width: 767px){
+	.dsp-pc {
+		display: none;
+	}
+	.qbb-mainimg {
+		height: auto;
+		background: none;
+	}
+	.qbb-mainimg h1 {
+		padding: 0;
+		width: 100%;
+	}
+	.qbb-mainimg h1 img {
+		max-width: 100%;
+    	min-height: 340px;
+    	width: auto;
+    	object-fit: cover;
+	}
+	#qbb-izakayababy .qbb-sec1 {
+		padding: 40px 0 40px;
+	}
+	.qbb-sec1 .common-block {
+		margin: 40px auto 0;
+	}
+	.qbb-sec1 .common-block div img {
+		max-width: 500px;
+	}
+	.qbb-sec2 .title {
+		padding: 140px 0 0;
+	}
+	.qbb-sec2 .title .title2 {
+		position: inherit;
+		right: inherit;
+		left: 50%;
+		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		margin: auto;
+		position: absolute;
+		top: 0px;
+		bottom: inherit;
+		max-width: 360px;
+	}
+	.qbb-sec2 .recipe-copy p{
+		 font-size: 14px;
+    	line-height: 1.5em;
+	}
+	.qbb-sec2 .recipe .common-block {
+		margin: 140px 0 0;
+	}
+	.qbb-sec2 .recipe .common-block .recipe-title {
+		left: -25px;
+		top: -120px;
+		max-width: 330px;
+	}
+	.qbb-sec2 .title h2 img {
+		margin: auto;
+		display: block;
+	}
+	.qbb-sec2 .recipe .common-block .block-title h3 {
+		font-size: 20px;
+		padding: 90px 10px 10px;
+		margin: 0 0 20px;
+		border-bottom: 6px solid #00326c;
+		text-align: center;
+	}
+	.qbb-sec2 .recipe .common-block.chinese .block-title h3 {
+		padding: 90px 10px 10px ;
+		text-align: center;
+	}
+	.qbb-sec2 .recipe .common-block .block-title h3 span {
+		font-size: 16px;
+	}
+	.qbb-sec2 .recipe .common-block.french .block-title h3:after, .qbb-sec2 .recipe .common-block.chinese .block-title h3:after, .qbb-sec2 .recipe .common-block.italian .block-title h3:after {
+		z-index: 1;
+		width: 121px;
+    	height: 158px;
+		right: -10px;
+		top: -60px;
+	}
+	.qbb-sec2 .recipe .common-block .block-chef {
+		padding: 0 15px;
+	}
+	.qbb-sec2 .recipe .common-block .block-chef .comment {
+		font-size: 14px;
+	}
+	.qbb-sec2 .recipe .common-block .block-recipe .box .text1 {
+		font-size: 15px;
+		padding: 0 10px;
+	}
+	.qbb-sec2 .recipe .common-block .block-recipe .box .text2 {
+		padding: 35px 10px 10px;
+		margin: 20px 10px 10px;
+    	font-size: 13px;
+		 min-height: auto;
+	}
+	.qbb-sec2 .recipe .common-block .block-recipe .box .text2:after {
+		top: -30px;
+		width: 60px;
+		height: 60px;
+		left: 50%;
+		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		margin: auto;
+	}
+	.qbb-sec2 .recipe .common-block .block-recipe .box .btn {
+		margin: 10px auto 50px;
+	}
+	.qbb-sec2 .recipe .common-block .block-chef .text1 {
+		float: none;
+		margin: 0 0 12px;
+	}
+	.qbb-sec2 .recipe .common-block .block-chef .text2 {
+		font-size: 13px;
+		line-height: 1.5em;
+	} 
+	.qbb-sec2 .recipe .common-block .block-chef .text2 span {
+		font-size: 16px;
+	}
+	.qbb-sec2 .recipe .common-block .block-chef .text3 {
+		margin: 5px 0 0;
+		font-size: 13px;
+	}
+	.qbb-sec2 .recipe .common-block .block-recipe {
+		margin: 0 auto;
+	}
+	.qbb-sec2 .recipe .common-block .block-recipe .box .btn {
+		width: 280px;
+		height: 50px;
+	}
+	.qbb-sec2 .recipe .common-block .block-recipe .box .btn a {
+		line-height: 50px;
+	}
+	.qbb-sec2 .recipe .common-block .block-recipe .box img {
+		padding: 0 10px;
+	}
+	.qbb-sec2 .recipe .img-text:after {
+		font-size: 12px;
+		right: 10px;
+	}
+	.qbb-sec2 .recipe .common-block .block-recipe {
+		max-width: 100%;
+		display: inherit;
+	}
+	.qbb-sec2 .recipe .common-block .block-recipe .box {
+		width: 100%;
+		margin: 0 auto ;
+	}
+	
+	#qbb-izakayababy .modal-body {
+		padding: 15px;
+	}
+	.qbb-bc-moie-modal2 .title {
+		font-size: 18px;
+		float: none;
+		padding: 0;
+	}
+	.qbb-sec2 .recipe .common-block .block-recipe .qbb-bc-moie-modal2 .box {
+		width: 100%;
+		max-width: 100%;
+		float: none;
+	}
+	.qbb-bc-moie-modal2 .qbb-babycheese-lineup-modal-content1 .img-recipe {
+		min-height: 260px;
+	}
+	#qbb-izakayababy .modal-dialog {
+		padding: 10px;
+	}
+	.ccm-page .qbb-table3 th {
+		padding: 6px 6px 6px 3px;
+		font-size: 14px;
+	}
+	.ccm-page .qbb-table3 td {
+		width: 7em;
+    	font-size: 13px;
+		padding: 6px 3px 6px 0;
+	}
+	.ccm-page .qbb-c-hd1 {
+		font-size: 14px;
+	}
+	.qbb-bc-moie-modal2 .modal-block3 {
+		padding: 30px 15px 10px;
+	}
+	.qbb-bc-moie-modal2 .modal-block3 .img-comment {
+		padding: 0 20px;
+	}
+	.qbb-bc-moie-modal2 .modal-block3 .text1 {font-size: 14px;}
+	.qbb-bc-moie-modal2 .modal-block3 .text2 {
+		margin: 10px 0 0;
+		flex-wrap: wrap;
+	}
+	.qbb-bc-moie-modal2 .modal-block3 p {
+		margin: 0;
+	}
+	.qbb-bc-moie-modal2 .modal-block3 {
+		margin: 70px 0 0;
+	}
+	.qbb-sec2 .recipe .common-block .block-chef p {
+		font-size: 13px;
+	}
+	
+	.qbb-sec2 .recipe .common-block .block-chef .movie-btn {
+		margin: 0 auto 30px;    
+		position: relative;
+    	top: -10px;
+	}
+	
+	.qbb-sec2 .recipe .bar {
+		display: block;
+		width: 100%;
+		height: 3px;
+		background: #fff;
+		margin: 40px 0;
+	}
+	
+	
+
+}
+
+
+
+@media (max-width: 420px) {
+	.qbb-mainimg .date {
+		padding: 0 20px;
+		bottom: -30px;
+	}
+}
+@media (max-width: 374px) {
+	.qbb-sec2 .recipe .common-block .recipe-title {
+		max-width: 280px;
+	}
+	.qbb-sec2 .recipe .common-block.french .block-title h3:after, .qbb-sec2 .recipe .common-block.chinese .block-title h3:after, .qbb-sec2 .recipe .common-block.italian .block-title h3:after {
+		width: 116px;
+    	height: 152px;
+	}
+}
+
+
+
